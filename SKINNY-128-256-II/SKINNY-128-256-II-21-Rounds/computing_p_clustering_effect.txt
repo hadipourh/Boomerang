@@ -1,0 +1,387 @@
+Generating the MILP model ...
+MILP model generation was finished!
+
+Academic license - for non-commercial use only
+Read LP format model from file skinny128-256_8r.lp
+Reading time = 0.30 seconds
+: 163113 rows, 7552 columns, 1087792 nonzeros
+Changed value of parameter PoolSearchMode to 2
+   Prev: 0  Min: 0  Max: 2  Default: 0
+Changed value of parameter PoolSolutions to 1
+   Prev: 10  Min: 1  Max: 2000000000  Default: 10
+
+Statistics for model Unnamed :
+  Linear constraint matrix    : 163113 Constrs, 7552 Vars, 1087792 NZs
+  Variable types              : 0 Continuous, 7552 Integer (7552 Binary)
+  Matrix coefficient range    : [ 1, 16 ]
+  Objective coefficient range : [ 2, 7 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 29 ]
+
+
+Current weight: 29.0
+Number of trails: 2
+	Current Probability: 2^(-28.0)
+Time used = 1.5880 seconds
+
+Current weight: 32.0
+Number of trails: 4
+	Current Probability: 2^(-27.67807190511264)
+Time used = 3.4643 seconds
+
+Current weight: 32.415
+Number of trails: 2
+	Current Probability: 2^(-27.57373262903752)
+Time used = 5.2163 seconds
+
+Current weight: 33.0
+Number of trails: 2
+	Current Probability: 2^(-27.508144403688082)
+Time used = 6.9506 seconds
+
+Current weight: 34.0
+Number of trails: 4
+	Current Probability: 2^(-27.445408754722248)
+Time used = 8.9221 seconds
+
+Current weight: 35.415
+Number of trails: 8
+	Current Probability: 2^(-27.40008367845732)
+Time used = 10.9477 seconds
+
+Current weight: 36.415
+Number of trails: 6
+	Current Probability: 2^(-27.38344728682357)
+Time used = 13.0614 seconds
+
+Current weight: 37.0
+Number of trails: 12
+	Current Probability: 2^(-27.361560274871447)
+Time used = 15.2021 seconds
+
+Current weight: 37.415
+Number of trails: 2
+	Current Probability: 2^(-27.358847528166027)
+Time used = 17.0903 seconds
+
+Current weight: 38.0
+Number of trails: 6
+	Current Probability: 2^(-27.35343742992459)
+Time used = 19.4679 seconds
+
+Current weight: 38.415
+Number of trails: 8
+	Current Probability: 2^(-27.348047403912254)
+Time used = 21.8268 seconds
+
+Current weight: 38.99999999999999
+Number of trails: 2
+	Current Probability: 2^(-27.347151044109097)
+Time used = 24.4911 seconds
+
+Current weight: 39.415
+Number of trails: 20
+	Current Probability: 2^(-27.340445864821113)
+Time used = 26.9613 seconds
+
+Current weight: 40.0
+Number of trails: 16
+	Current Probability: 2^(-27.33688256345373)
+Time used = 29.5278 seconds
+
+Current weight: 40.415
+Number of trails: 8
+	Current Probability: 2^(-27.335548556519075)
+Time used = 31.9973 seconds
+
+Current weight: 41.0
+Number of trails: 16
+	Current Probability: 2^(-27.333771843382543)
+Time used = 34.8204 seconds
+
+Current weight: 41.415
+Number of trails: 2
+	Current Probability: 2^(-27.333605384325978)
+Time used = 37.3422 seconds
+
+Current weight: 42.0
+Number of trails: 42
+	Current Probability: 2^(-27.331277032405115)
+Time used = 40.5156 seconds
+
+Current weight: 42.415
+Number of trails: 40
+	Current Probability: 2^(-27.32961617838009)
+Time used = 43.2341 seconds
+
+Current weight: 43.0
+Number of trails: 36
+	Current Probability: 2^(-27.32862060882079)
+Time used = 46.2091 seconds
+
+Current weight: 43.415
+Number of trails: 28
+	Current Probability: 2^(-27.32804016193825)
+Time used = 48.6831 seconds
+
+Current weight: 44.0
+Number of trails: 50
+	Current Probability: 2^(-27.32734947605002)
+Time used = 51.7998 seconds
+
+Current weight: 44.415
+Number of trails: 8
+	Current Probability: 2^(-27.327266613805936)
+Time used = 54.5398 seconds
+
+Current weight: 45.0
+Number of trails: 88
+	Current Probability: 2^(-27.326659118514545)
+Time used = 57.4371 seconds
+
+Current weight: 45.415
+Number of trails: 64
+	Current Probability: 2^(-27.32632785662485)
+Time used = 59.4972 seconds
+
+Current weight: 46.0
+Number of trails: 96
+	Current Probability: 2^(-27.325996679387064)
+Time used = 62.3268 seconds
+
+Current weight: 46.415
+Number of trails: 96
+	Current Probability: 2^(-27.32574833988511)
+Time used = 65.0688 seconds
+
+Current weight: 47.0
+Number of trails: 126
+	Current Probability: 2^(-27.32553108352888)
+Time used = 68.0692 seconds
+
+Current weight: 47.415
+Number of trails: 52
+	Current Probability: 2^(-27.32546384239614)
+Time used = 70.7165 seconds
+
+Current weight: 48.0
+Number of trails: 154
+	Current Probability: 2^(-27.325331096913892)
+Time used = 73.7275 seconds
+
+Current weight: 48.415
+Number of trails: 44
+	Current Probability: 2^(-27.3253026523031)
+Time used = 76.2643 seconds
+
+Current weight: 49.0
+Number of trails: 236
+	Current Probability: 2^(-27.325200948501852)
+Time used = 79.9259 seconds
+
+Current weight: 49.415
+Number of trails: 112
+	Current Probability: 2^(-27.32516474963295)
+Time used = 82.3164 seconds
+
+Current weight: 50.0
+Number of trails: 276
+	Current Probability: 2^(-27.32510528357998)
+Time used = 85.7104 seconds
+
+Current weight: 50.415
+Number of trails: 88
+	Current Probability: 2^(-27.325091063430413)
+Time used = 88.5815 seconds
+
+Current weight: 51.0
+Number of trails: 544
+	Current Probability: 2^(-27.325032462179887)
+Time used = 92.0225 seconds
+
+Current weight: 51.415
+Number of trails: 32
+	Current Probability: 2^(-27.325029876818224)
+Time used = 94.5112 seconds
+
+Current weight: 52.0
+Number of trails: 744
+	Current Probability: 2^(-27.324989805346437)
+Time used = 98.0531 seconds
+
+Current weight: 52.415
+Number of trails: 108
+	Current Probability: 2^(-27.324985442680315)
+Time used = 100.9236 seconds
+
+Current weight: 53.0
+Number of trails: 1076
+	Current Probability: 2^(-27.324956467047592)
+Time used = 104.1620 seconds
+
+Current weight: 53.415
+Number of trails: 136
+	Current Probability: 2^(-27.32495372024567)
+Time used = 106.3542 seconds
+
+Current weight: 54.0
+Number of trails: 1104
+	Current Probability: 2^(-27.32493885567709)
+Time used = 109.9649 seconds
+
+Current weight: 54.415
+Number of trails: 74
+	Current Probability: 2^(-27.324938108393994)
+Time used = 112.8930 seconds
+
+Current weight: 55.0
+Number of trails: 1196
+	Current Probability: 2^(-27.324930056820797)
+Time used = 116.5637 seconds
+
+Current weight: 55.415
+Number of trails: 112
+	Current Probability: 2^(-27.324929491312684)
+Time used = 119.1158 seconds
+
+Current weight: 56.0
+Number of trails: 1784
+	Current Probability: 2^(-27.324923486324817)
+Time used = 122.6833 seconds
+
+Current weight: 56.415
+Number of trails: 184
+	Current Probability: 2^(-27.324923021802388)
+Time used = 125.0092 seconds
+
+Current weight: 57.0
+Number of trails: 1768
+	Current Probability: 2^(-27.32492004624687)
+Time used = 129.1285 seconds
+
+Current weight: 57.415
+Number of trails: 152
+	Current Probability: 2^(-27.324919854379353)
+Time used = 132.6349 seconds
+
+Current weight: 58.0
+Number of trails: 2004
+	Current Probability: 2^(-27.324918168009773)
+Time used = 136.1456 seconds
+
+Current weight: 58.415
+Number of trails: 94
+	Current Probability: 2^(-27.32491810868239)
+Time used = 139.5890 seconds
+
+Current weight: 59.0
+Number of trails: 2080
+	Current Probability: 2^(-27.32491723352135)
+Time used = 143.6131 seconds
+
+Current weight: 59.415
+Number of trails: 90
+	Current Probability: 2^(-27.32491720511996)
+Time used = 146.5455 seconds
+
+Current weight: 60.0
+Number of trails: 2362
+	Current Probability: 2^(-27.324916708213863)
+Time used = 150.5110 seconds
+
+Current weight: 60.415
+Number of trails: 88
+	Current Probability: 2^(-27.324916694328746)
+Time used = 153.6181 seconds
+
+Current weight: 61.0
+Number of trails: 2802
+	Current Probability: 2^(-27.324916399593246)
+Time used = 157.4859 seconds
+
+Current weight: 61.415
+Number of trails: 52
+	Current Probability: 2^(-27.324916395490824)
+Time used = 160.2107 seconds
+
+Current weight: 62.0
+Number of trails: 4250
+	Current Probability: 2^(-27.324916171967338)
+Time used = 163.8028 seconds
+
+Current weight: 62.415
+Number of trails: 16
+	Current Probability: 2^(-27.324916171336195)
+Time used = 166.7484 seconds
+
+Current weight: 63.0
+Number of trails: 5880
+	Current Probability: 2^(-27.324916016710556)
+Time used = 172.7667 seconds
+
+Current weight: 63.415
+Number of trails: 2
+	Current Probability: 2^(-27.32491601667111)
+Time used = 175.7388 seconds
+
+Current weight: 64.0
+Number of trails: 6508
+	Current Probability: 2^(-27.324915931101078)
+Time used = 180.3741 seconds
+
+Current weight: 65.0
+Number of trails: 6100
+	Current Probability: 2^(-27.324915890998344)
+Time used = 185.5408 seconds
+
+Current weight: 66.0
+Number of trails: 7584
+	Current Probability: 2^(-27.324915866068906)
+Time used = 190.5741 seconds
+
+Current weight: 67.0
+Number of trails: 11844
+	Current Probability: 2^(-27.324915846602646)
+Time used = 196.5689 seconds
+
+Current weight: 68.0
+Number of trails: 14922
+	Current Probability: 2^(-27.324915834340086)
+Time used = 204.0932 seconds
+
+Current weight: 69.0
+Number of trails: 16654
+	Current Probability: 2^(-27.324915827497144)
+Time used = 210.0258 seconds
+
+Current weight: 70.0
+Number of trails: 16550
+	Current Probability: 2^(-27.324915824097044)
+Time used = 215.4369 seconds
+
+Current weight: 71.0
+Number of trails: 19208
+	Current Probability: 2^(-27.32491582212396)
+Time used = 222.9918 seconds
+
+Current weight: 72.0
+Number of trails: 22096
+	Current Probability: 2^(-27.32491582098908)
+Time used = 228.9340 seconds
+
+Current weight: 73.0
+Number of trails: 19372
+	Current Probability: 2^(-27.3249158204916)
+Time used = 233.6254 seconds
+
+Current weight: 74.0
+Number of trails: 11248
+	Current Probability: 2^(-27.32491582034717)
+Time used = 236.1115 seconds
+
+Current weight: 75.0
+Number of trails: 2760
+	Current Probability: 2^(-27.32491582032945)
+Time used = 237.5852 seconds
+
+

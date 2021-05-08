@@ -1,0 +1,14 @@
+# Differential Analaysis of CRAFT
+---
+cipher: craft
+sweight: 25
+endweight: 65
+rounds: 4
+wordsize: 64
+mode: 4
+#iterative: True
+#boolector: True
+fixedVariables:
+#- x0: "0x0000000000A00000"
+- x4: "0x0AA0A00000AA000A"
+...

@@ -1,0 +1,34 @@
+Generating the MILP model ...
+MILP model generation was finished!
+
+Using license file /home/hosein/Programs/gurobi9.0.1_linux64/gurobi.lic
+Academic license - for non-commercial use only
+Read LP format model from file skinny128-384_9r.lp
+Reading time = 0.38 seconds
+: 187121 rows, 9632 columns, 1238192 nonzeros
+Changed value of parameter PoolSearchMode to 2
+   Prev: 0  Min: 0  Max: 2  Default: 0
+Changed value of parameter PoolSolutions to 1
+   Prev: 10  Min: 1  Max: 2000000000  Default: 10
+
+
+Current weight: 13.0
+Number of trails: 2
+	Current Probability: 2^(-12.0)
+Time used = 0.7635 seconds
+
+Current weight: 14.0
+Number of trails: 2
+	Current Probability: 2^(-11.415037499278844)
+Time used = 1.5726 seconds
+
+Current weight: 15.0
+Number of trails: 4
+	Current Probability: 2^(-11.0)
+Time used = 2.3832 seconds
+
+Current weight: 19.0
+Number of trails: 8
+	Current Probability: 2^(-10.955605880641548)
+Time used = 3.2503 seconds
+

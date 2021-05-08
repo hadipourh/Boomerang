@@ -1,0 +1,20 @@
+
+# Created on Jan 6, 2020
+# Author: Hosein Hadipour
+# Example input file for SKINNY to find a related-tweak differential characteristic
+---
+cipher: skinnyrk
+sweight: 0
+rounds: 9
+wordsize: 60
+mode: 4
+tweaksize: 128
+keysize: 64
+# tweaksize: 192
+# keysize: 0
+fixedVariables:
+- tk00 : "0x0000000000000070"
+- tk10 : "0x0000000000000030"
+- tk20 : "0x00000000000000B0"
+- x0 : "0x0200200000020090"
+- x9 : "0x0000400000000000"

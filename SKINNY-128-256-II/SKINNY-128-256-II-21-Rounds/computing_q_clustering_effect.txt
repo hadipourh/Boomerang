@@ -1,0 +1,67 @@
+Generating the MILP model ...
+MILP model generation was finished!
+
+Using license file /home/hosein/Programs/gurobi9.0.1_linux64/gurobi.lic
+Academic license - for non-commercial use only
+Read LP format model from file skinny128-256_7r.lp
+Reading time = 0.27 seconds
+: 142753 rows, 6624 columns, 951856 nonzeros
+Changed value of parameter PoolSearchMode to 2
+   Prev: 0  Min: 0  Max: 2  Default: 0
+Changed value of parameter PoolSolutions to 1
+   Prev: 10  Min: 1  Max: 2000000000  Default: 10
+
+Statistics for model Unnamed :
+  Linear constraint matrix    : 142753 Constrs, 6624 Vars, 951856 NZs
+  Variable types              : 0 Continuous, 6624 Integer (6624 Binary)
+  Matrix coefficient range    : [ 1, 16 ]
+  Objective coefficient range : [ 2, 7 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 29 ]
+
+
+Current weight: 25.0
+Number of trails: 8
+	Current Probability: 2^(-22.0)
+Time used = 0.6264 seconds
+
+Current weight: 26.0
+Number of trails: 32
+	Current Probability: 2^(-20.415037499278846)
+Time used = 1.2702 seconds
+
+Current weight: 27.0
+Number of trails: 48
+	Current Probability: 2^(-19.830074998557688)
+Time used = 1.9137 seconds
+
+Current weight: 28.0
+Number of trails: 32
+	Current Probability: 2^(-19.67807190511264)
+Time used = 2.5861 seconds
+
+Current weight: 29.0
+Number of trails: 24
+	Current Probability: 2^(-19.624960568653076)
+Time used = 3.2434 seconds
+
+Current weight: 31.245
+Number of trails: 8
+	Current Probability: 2^(-19.62129844684568)
+Time used = 3.8820 seconds
+
+Current weight: 33.0
+Number of trails: 16
+	Current Probability: 2^(-19.619132847781145)
+Time used = 4.5241 seconds
+
+Current weight: 34.0
+Number of trails: 8
+	Current Probability: 2^(-19.618591955561413)
+Time used = 5.2179 seconds
+
+Current weight: 37.0
+Number of trails: 8
+	Current Probability: 2^(-19.618524358290404)
+Time used = 5.9216 seconds
+

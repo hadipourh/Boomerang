@@ -1,0 +1,17 @@
+﻿  rumi-64-192-22r.c
+C:\Users\Hosein\MyUniverse\Mathematics\Cryptography\Alim\SKINNY\GitBoomerang\SKINNY-64-192-I\SKINNY-64-192-I-22-Rounds\BMD3\ExperimentalVerification\WindowsMachine\rumi-64-192-22r.c(78,23): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Hosein\MyUniverse\Mathematics\Cryptography\Alim\SKINNY\GitBoomerang\SKINNY-64-192-I\SKINNY-64-192-I-22-Rounds\BMD3\ExperimentalVerification\WindowsMachine\rumi-64-192-22r.c(777,46): warning C4244: 'function': conversion from 'UINT64' to 'double', possible loss of data
+C:\Users\Hosein\MyUniverse\Mathematics\Cryptography\Alim\SKINNY\GitBoomerang\SKINNY-64-192-I\SKINNY-64-192-I-22-Rounds\BMD3\ExperimentalVerification\WindowsMachine\rumi-64-192-22r.c(778,135): warning C4244: 'function': conversion from 'UINT64' to 'double', possible loss of data
+C:\Users\Hosein\MyUniverse\Mathematics\Cryptography\Alim\SKINNY\GitBoomerang\SKINNY-64-192-I\SKINNY-64-192-I-22-Rounds\BMD3\ExperimentalVerification\WindowsMachine\rumi-64-192-22r.c(807,52): warning C4244: '=': conversion from 'double' to 'UINT64', possible loss of data
+C:\Users\Hosein\MyUniverse\Mathematics\Cryptography\Alim\SKINNY\GitBoomerang\SKINNY-64-192-I\SKINNY-64-192-I-22-Rounds\BMD3\ExperimentalVerification\WindowsMachine\rumi-64-192-22r.c(809,39): warning C4244: 'function': conversion from 'UINT64' to 'double', possible loss of data
+C:\Users\Hosein\MyUniverse\Mathematics\Cryptography\Alim\SKINNY\GitBoomerang\SKINNY-64-192-I\SKINNY-64-192-I-22-Rounds\BMD3\ExperimentalVerification\WindowsMachine\rumi-64-192-22r.c(886,72): warning C4244: 'function': conversion from 'UINT64' to 'double', possible loss of data
+C:\Users\Hosein\MyUniverse\Mathematics\Cryptography\Alim\SKINNY\GitBoomerang\SKINNY-64-192-I\SKINNY-64-192-I-22-Rounds\BMD3\ExperimentalVerification\WindowsMachine\rumi-64-192-22r.c(886,82): warning C4244: 'function': conversion from 'UINT64' to 'double', possible loss of data
+C:\Users\Hosein\MyUniverse\Mathematics\Cryptography\Alim\SKINNY\GitBoomerang\SKINNY-64-192-I\SKINNY-64-192-I-22-Rounds\BMD3\ExperimentalVerification\WindowsMachine\rumi-64-192-22r.c(886,93): warning C4244: 'function': conversion from 'UINT64' to 'double', possible loss of data
+C:\Users\Hosein\MyUniverse\Mathematics\Cryptography\Alim\SKINNY\GitBoomerang\SKINNY-64-192-I\SKINNY-64-192-I-22-Rounds\BMD3\ExperimentalVerification\WindowsMachine\rumi-64-192-22r.c(889,66): warning C4244: 'function': conversion from 'UINT64' to 'double', possible loss of data
+C:\Users\Hosein\MyUniverse\Mathematics\Cryptography\Alim\SKINNY\GitBoomerang\SKINNY-64-192-I\SKINNY-64-192-I-22-Rounds\BMD3\ExperimentalVerification\WindowsMachine\rumi-64-192-22r.c(889,76): warning C4244: 'function': conversion from 'UINT64' to 'double', possible loss of data
+C:\Users\Hosein\MyUniverse\Mathematics\Cryptography\Alim\SKINNY\GitBoomerang\SKINNY-64-192-I\SKINNY-64-192-I-22-Rounds\BMD3\ExperimentalVerification\WindowsMachine\rumi-64-192-22r.c(889,87): warning C4244: 'function': conversion from 'UINT64' to 'double', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 30 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  rumi-64-192-22r.vcxproj -> C:\Users\Hosein\MyUniverse\Mathematics\Cryptography\Alim\SKINNY\GitBoomerang\SKINNY-64-192-I\SKINNY-64-192-I-22-Rounds\BMD3\ExperimentalVerification\WindowsMachine\rumi-64-192-22r\x64\Release\rumi-64-192-22r.exe

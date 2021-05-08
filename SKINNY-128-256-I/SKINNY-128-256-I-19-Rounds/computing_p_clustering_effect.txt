@@ -1,0 +1,36 @@
+Generating the MILP model ...
+MILP model generation was finished!
+
+Using license file /home/hosein/Programs/gurobi9.0.1_linux64/gurobi.lic
+Academic license - for non-commercial use only
+Read LP format model from file skinny128-256_7r.lp
+Reading time = 0.26 seconds
+: 142753 rows, 6624 columns, 951856 nonzeros
+Changed value of parameter PoolSearchMode to 2
+   Prev: 0  Min: 0  Max: 2  Default: 0
+Changed value of parameter PoolSolutions to 1
+   Prev: 10  Min: 1  Max: 2000000000  Default: 10
+
+Statistics for model Unnamed :
+  Linear constraint matrix    : 142753 Constrs, 6624 Vars, 951856 NZs
+  Variable types              : 0 Continuous, 6624 Integer (6624 Binary)
+  Matrix coefficient range    : [ 1, 16 ]
+  Objective coefficient range : [ 2, 7 ]
+  Variable bound range        : [ 1, 1 ]
+  RHS coefficient range       : [ 1, 29 ]
+
+
+Current weight: 13.0
+Number of trails: 2
+	Current Probability: 2^(-12.0)
+Time used = 0.7392 seconds
+
+Current weight: 15.415
+Number of trails: 2
+	Current Probability: 2^(-11.752066565552848)
+Time used = 1.5709 seconds
+
+Current weight: 17.0
+Number of trails: 2
+	Current Probability: 2^(-11.678066280158673)
+Time used = 2.4631 seconds

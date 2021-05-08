@@ -1,0 +1,2 @@
+scl enable devtoolset-8 bash
+for i in {0..127}; do qsub jobrumi-64-192-22r.sh -F $i; done

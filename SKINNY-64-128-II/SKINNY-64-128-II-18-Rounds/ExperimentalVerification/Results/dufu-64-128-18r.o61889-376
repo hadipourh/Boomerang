@@ -1,0 +1,58 @@
+[+] PRNG initialized to 0x761FE8C7
+#Rounds: 18 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 1 * 32768 * 32768 = 2^(30.000000)
+#Queries per thread = (#Bunches per thread) * (#Queries per bunch) = 32768 * 32768 = 2^(30.000000)
+PID: 0  	 Bunch Number: 0/32768
+PID: 0  	 Bunch Number: 1024/32768
+PID: 0  	 Bunch Number: 2048/32768
+PID: 0  	 Bunch Number: 3072/32768
+PID: 0  	 Bunch Number: 4096/32768
+PID: 0  	 Bunch Number: 5120/32768
+PID: 0  	 Bunch Number: 6144/32768
+PID: 0  	 Bunch Number: 7168/32768
+PID: 0  	 Bunch Number: 8192/32768
+PID: 0  	 Bunch Number: 9216/32768
+PID: 0  	 Bunch Number: 10240/32768
+PID: 0  	 Bunch Number: 11264/32768
+PID: 0  	 Bunch Number: 12288/32768
+PID: 0  	 Bunch Number: 13312/32768
+PID: 0  	 Bunch Number: 14336/32768
+PID: 0  	 Bunch Number: 15360/32768
+PID: 0  	 Bunch Number: 16384/32768
+PID: 0  	 Bunch Number: 17408/32768
+PID: 0  	 Bunch Number: 18432/32768
+PID: 0  	 Bunch Number: 19456/32768
+PID: 0  	 Bunch Number: 20480/32768
+PID: 0  	 Bunch Number: 21504/32768
+PID: 0  	 Bunch Number: 22528/32768
+PID: 0  	 Bunch Number: 23552/32768
+PID: 0  	 Bunch Number: 24576/32768
+PID: 0  	 Bunch Number: 25600/32768
+PID: 0  	 Bunch Number: 26624/32768
+PID: 0  	 Bunch Number: 27648/32768
+A right quartet found :)
+
+p1: d3ef3035b7bf7f66
+p2: d3ef3035b7bf7766
+p3: 64da4c116b20fae3
+p4: 64da4c116b20f2e3
+c1: 1043079ac1ae52c1
+c2: 240c36f6f20d020c
+c3: 2142069ac1df53c0
+c4: 150d37f6f27c030d
+k1: 386dc4fdccb42cd15eb3f0438981272b
+k2: 386dc4fdc0b42cd15eb3f0438681272b
+k3: 386dc4fdccb42c915eb3f0438981275b
+k4: 386dc4fdc0b42c915eb3f0438681275b
+PID: 0  	 Bunch Number: 28672/32768
+PID: 0  	 Bunch Number: 29696/32768
+PID: 0  	 Bunch Number: 30720/32768
+PID: 0  	 Bunch Number: 31744/32768
+time on clock: 6109.9600
+time on wall: 6124.2115
+sum = 1.000000
+2^(-30.000000)
+
+##########################
+Program number = 1
+Average = 2^(-30.0000)

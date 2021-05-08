@@ -1,0 +1,22 @@
+# Example input file for Skinny-128-384
+---
+blocksize: 128
+rounds: 11
+mode: 1
+sweight: 0
+endweight: 128
+timelimit: -1
+fixedVariables:
+                  
+# 11 Rounds
+# The following conditions have been taken from https://tosc.iacr.org/index.php/ToSC/article/view/7399
+# Pr = 2^(-21)
+- x_0: "00200000100000000000001000001000"
+- x_10: "00200000000000000020000000200000"
+- tk1_0: "00aa0000000000000000000000000000"
+- tk2_0: "00e60000000000000000000000000000"
+- tk3_0: "00cf0000000000000000000000000000"
+# In order to force a byte position to be passive (zero), use a variable with two indices like this:
+# - x_8_0: "0"
+# The first index depicts the round number, and the second one depicts the byte position
+# ...

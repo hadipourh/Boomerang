@@ -1,0 +1,80 @@
+[+] PRNG initialized to 0x60350C04
+#Rounds: 10 rounds
+Encryption:
+plaintext before encryption: a6887416c18e5165
+ciphertext after encryption: 59c816591b523b35
+Decryption:
+ plaintext after decryption: a6887416c18e5165
+
+#Rounds: 10 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 16 * 4096 * 4096 = 2^(28.000000)
+ time on clock(): 9140.8
+ time on wall: 607.585
+sum = 6
+2^(-25.415037)
+#####################################
+#Rounds: 10 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 16 * 4096 * 4096 = 2^(28.000000)
+ time on clock(): 8510.87
+ time on wall: 564.797
+sum = 5
+2^(-25.678072)
+#####################################
+#Rounds: 10 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 16 * 4096 * 4096 = 2^(28.000000)
+ time on clock(): 8550.8
+ time on wall: 567.125
+sum = 5
+2^(-25.678072)
+#####################################
+#Rounds: 10 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 16 * 4096 * 4096 = 2^(28.000000)
+ time on clock(): 8563.8
+ time on wall: 568.654
+sum = 9
+2^(-24.830075)
+#####################################
+#Rounds: 10 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 16 * 4096 * 4096 = 2^(28.000000)
+ time on clock(): 8574.38
+ time on wall: 569.004
+sum = 1
+2^(-28.000000)
+#####################################
+#Rounds: 10 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 16 * 4096 * 4096 = 2^(28.000000)
+ time on clock(): 8557.59
+ time on wall: 567.483
+sum = 2
+2^(-27.000000)
+#####################################
+#Rounds: 10 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 16 * 4096 * 4096 = 2^(28.000000)
+ time on clock(): 8568.25
+ time on wall: 568.688
+sum = 6
+2^(-25.415037)
+#####################################
+#Rounds: 10 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 16 * 4096 * 4096 = 2^(28.000000)
+ time on clock(): 8552.24
+ time on wall: 567.652
+sum = 1
+2^(-28.000000)
+#####################################
+#Rounds: 10 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 16 * 4096 * 4096 = 2^(28.000000)
+ time on clock(): 8569.41
+ time on wall: 568.959
+sum = 7
+2^(-25.192645)
+#####################################
+#Rounds: 10 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 16 * 4096 * 4096 = 2^(28.000000)
+ time on clock(): 8573.33
+ time on wall: 568.825
+sum = 7
+2^(-25.192645)
+#####################################
+
+Average = 2^(-25.7072)

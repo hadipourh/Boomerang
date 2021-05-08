@@ -1,0 +1,23 @@
+E0-1r
+python3 craft-e0-1r.py --inputfile inputfiles/boomerang_e0_1r.yaml
+
+
+E0-2r
+python3 craft-e0-2r.py --inputfile inputfiles/boomerang_e0_2r.yaml
+
+
+E0-3r
+python3 craft-e0-3r.py --inputfile inputfiles/boomerang_e0_3r.yaml
+
+
+E1-1r
+python3 craft-e1-1r-4r.py --inputfile inputfiles/boomerang_e1_1r.yaml
+
+E1-2r
+python3 craft-e1-1r-4r.py --inputfile inputfiles/boomerang_e1_2r.yaml
+
+E1-3r
+python3 craft-e1-1r-4r.py --inputfile inputfiles/boomerang_e1_3r.yaml
+
+E1-4r
+python3 craft-e1-1r-4r.py --inputfile inputfiles/boomerang_e1_4r.yaml

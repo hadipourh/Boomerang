@@ -1,0 +1,166 @@
+[+] PRNG initialized to 0x5FB54263
+#Rounds: 8 rounds
+Encryption:
+plaintext before encryption: a5e0117a3ce138fb
+ciphertext after encryption: be7b276f402a6121
+Decryption:
+ plaintext after decryption: a5e0117a3ce138fb
+
+#Rounds: 8 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 1 * 32768 * 32768 = 2^(30.000000)
+Bunch Number: 0/32768
+Bunch Number: 1024/32768
+Bunch Number: 2048/32768
+Bunch Number: 3072/32768
+Bunch Number: 4096/32768
+Bunch Number: 5120/32768
+Bunch Number: 6144/32768
+Bunch Number: 7168/32768
+Bunch Number: 8192/32768
+Bunch Number: 9216/32768
+Bunch Number: 10240/32768
+Bunch Number: 11264/32768
+Bunch Number: 12288/32768
+Bunch Number: 13312/32768
+Bunch Number: 14336/32768
+Bunch Number: 15360/32768
+Bunch Number: 16384/32768
+Bunch Number: 17408/32768
+Bunch Number: 18432/32768
+Bunch Number: 19456/32768
+Bunch Number: 20480/32768
+Bunch Number: 21504/32768
+Bunch Number: 22528/32768
+Bunch Number: 23552/32768
+Bunch Number: 24576/32768
+Bunch Number: 25600/32768
+Bunch Number: 26624/32768
+Bunch Number: 27648/32768
+Bunch Number: 28672/32768
+Bunch Number: 29696/32768
+Bunch Number: 30720/32768
+Bunch Number: 31744/32768
+ time on clock(): 881.61
+ time on wall: 883.855
+sum = 21
+2^(-25.607683)
+#####################################
+#Rounds: 8 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 1 * 32768 * 32768 = 2^(30.000000)
+Bunch Number: 0/32768
+Bunch Number: 1024/32768
+Bunch Number: 2048/32768
+Bunch Number: 3072/32768
+Bunch Number: 4096/32768
+Bunch Number: 5120/32768
+Bunch Number: 6144/32768
+Bunch Number: 7168/32768
+Bunch Number: 8192/32768
+Bunch Number: 9216/32768
+Bunch Number: 10240/32768
+Bunch Number: 11264/32768
+Bunch Number: 12288/32768
+Bunch Number: 13312/32768
+Bunch Number: 14336/32768
+Bunch Number: 15360/32768
+Bunch Number: 16384/32768
+Bunch Number: 17408/32768
+Bunch Number: 18432/32768
+Bunch Number: 19456/32768
+Bunch Number: 20480/32768
+Bunch Number: 21504/32768
+Bunch Number: 22528/32768
+Bunch Number: 23552/32768
+Bunch Number: 24576/32768
+Bunch Number: 25600/32768
+Bunch Number: 26624/32768
+Bunch Number: 27648/32768
+Bunch Number: 28672/32768
+Bunch Number: 29696/32768
+Bunch Number: 30720/32768
+Bunch Number: 31744/32768
+ time on clock(): 883.4
+ time on wall: 885.607
+sum = 22
+2^(-25.540568)
+#####################################
+#Rounds: 8 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 1 * 32768 * 32768 = 2^(30.000000)
+Bunch Number: 0/32768
+Bunch Number: 1024/32768
+Bunch Number: 2048/32768
+Bunch Number: 3072/32768
+Bunch Number: 4096/32768
+Bunch Number: 5120/32768
+Bunch Number: 6144/32768
+Bunch Number: 7168/32768
+Bunch Number: 8192/32768
+Bunch Number: 9216/32768
+Bunch Number: 10240/32768
+Bunch Number: 11264/32768
+Bunch Number: 12288/32768
+Bunch Number: 13312/32768
+Bunch Number: 14336/32768
+Bunch Number: 15360/32768
+Bunch Number: 16384/32768
+Bunch Number: 17408/32768
+Bunch Number: 18432/32768
+Bunch Number: 19456/32768
+Bunch Number: 20480/32768
+Bunch Number: 21504/32768
+Bunch Number: 22528/32768
+Bunch Number: 23552/32768
+Bunch Number: 24576/32768
+Bunch Number: 25600/32768
+Bunch Number: 26624/32768
+Bunch Number: 27648/32768
+Bunch Number: 28672/32768
+Bunch Number: 29696/32768
+Bunch Number: 30720/32768
+Bunch Number: 31744/32768
+ time on clock(): 885.32
+ time on wall: 887.914
+sum = 25
+2^(-25.356144)
+#####################################
+#Rounds: 8 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 1 * 32768 * 32768 = 2^(30.000000)
+Bunch Number: 0/32768
+Bunch Number: 1024/32768
+Bunch Number: 2048/32768
+Bunch Number: 3072/32768
+Bunch Number: 4096/32768
+Bunch Number: 5120/32768
+Bunch Number: 6144/32768
+Bunch Number: 7168/32768
+Bunch Number: 8192/32768
+Bunch Number: 9216/32768
+Bunch Number: 10240/32768
+Bunch Number: 11264/32768
+Bunch Number: 12288/32768
+Bunch Number: 13312/32768
+Bunch Number: 14336/32768
+Bunch Number: 15360/32768
+Bunch Number: 16384/32768
+Bunch Number: 17408/32768
+Bunch Number: 18432/32768
+Bunch Number: 19456/32768
+Bunch Number: 20480/32768
+Bunch Number: 21504/32768
+Bunch Number: 22528/32768
+Bunch Number: 23552/32768
+Bunch Number: 24576/32768
+Bunch Number: 25600/32768
+Bunch Number: 26624/32768
+Bunch Number: 27648/32768
+Bunch Number: 28672/32768
+Bunch Number: 29696/32768
+Bunch Number: 30720/32768
+Bunch Number: 31744/32768
+ time on clock(): 880.72
+ time on wall: 882.793
+sum = 17
+2^(-25.912537)
+#####################################
+(k1, k2) = (2, 5), Average : 2^-25.59
+

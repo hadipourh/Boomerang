@@ -1,0 +1,40 @@
+Finding all trails of weight 0
+	Solutions: 0
+Finding all trails of weight 1
+	Solutions: 0
+Finding all trails of weight 2
+	Solutions: 0
+Finding all trails of weight 3
+	Solutions: 0
+Finding all trails of weight 4
+	Solutions: 0
+Finding all trails of weight 5
+	Solutions: 0
+Finding all trails of weight 6
+	Solutions: 0
+Finding all trails of weight 7
+	Solutions: 0
+Finding all trails of weight 8
+	Solutions: 0
+Finding all trails of weight 9
+	Solutions: 0
+Finding all trails of weight 10
+	Solutions: 0
+Finding all trails of weight 11
+	Solutions: 0
+Finding all trails of weight 12
+	Solutions: 5
+	Trails found: 5
+	Current Probability: -9.678071905112638
+	Time: 2.08s
+Finding all trails of weight 13
+	Solutions: 6
+	Trails found: 11
+	Current Probability: -9.0
+	Time: 2.24s
+Finding all trails of weight 14
+	Solutions: 0
+	Trails found: 11
+	Current Probability: -9.0
+	Time: 2.41s
+

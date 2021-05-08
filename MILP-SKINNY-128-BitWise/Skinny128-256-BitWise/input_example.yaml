@@ -1,0 +1,37 @@
+# Example input file for Skinny-128-256
+---
+blocksize: 128
+rounds: 7
+mode: 2
+sweight: 0
+endweight: 128
+timelimit: -1
+fixedVariables:
+
+# 7 Rounds
+# Pr = 2^(-11.78)  [Differential effect: mode = 2]
+- tk1_0 : "00020000000000000000000000000000"
+- tk2_0 : "00800000000000000000000000000000"
+- x_0 : "00200000010000000000000100000100"
+- x_7 : "00000000000000000006000000000000"
+
+# 4 Rounds
+# The following conditions have been taken from https://tosc.iacr.org/index.php/ToSC/article/view/7399
+# Pr = 2^(-25.19) [Considering the clustering effect]
+# - x_0: "0000000000000000000000000000000a"
+# - x_4: "00000000000000000000000000000000"
+# - tk1_0: "0000cc000000000000000000ff000000"
+# - tk2_0: "0000f30000000000000000009f000000"
+
+# 9 rounds
+# Pr = 2^(-20)    [Single trail: mode = 0]
+# Pr = 2^(-12.78) [Differential effect: mode = 2]
+# The following conditions have been taken from https://tosc.iacr.org/index.php/ToSC/article/view/7399
+# - x_0: "80000000000001000001000001000000"
+# - x_8: "00010000000000000001000000010000"
+# - tk1_0: "fc000000000000000000000000000000"
+# - tk2_0: "ff000000000000000000000000000000"
+
+# In order to force a byte position to be passive (zero), use a variable with two indices like this:
+# - x_8_0: "0"
+# The first index depicts the round number, and the second one depicts the byte position

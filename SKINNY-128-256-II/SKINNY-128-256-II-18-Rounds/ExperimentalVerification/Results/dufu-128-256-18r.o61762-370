@@ -1,0 +1,76 @@
+[+] PRNG initialized to 0x5FAEAC25
+#Rounds: 18 rounds
+#Total Queries = (#Parallel threads) * (#Bunches per thread) * (#Queries per bunch) = 1 * 65536 * 65536 = 2^(32.000000)
+#Queries per thread = (#Bunches per thread) * (#Queries per bunch) = 65536 * 65536 = 2^(32.000000)
+PID: 0  	 Bunch Number: 0/65536
+PID: 0  	 Bunch Number: 1024/65536
+PID: 0  	 Bunch Number: 2048/65536
+PID: 0  	 Bunch Number: 3072/65536
+PID: 0  	 Bunch Number: 4096/65536
+PID: 0  	 Bunch Number: 5120/65536
+PID: 0  	 Bunch Number: 6144/65536
+PID: 0  	 Bunch Number: 7168/65536
+PID: 0  	 Bunch Number: 8192/65536
+PID: 0  	 Bunch Number: 9216/65536
+PID: 0  	 Bunch Number: 10240/65536
+PID: 0  	 Bunch Number: 11264/65536
+PID: 0  	 Bunch Number: 12288/65536
+PID: 0  	 Bunch Number: 13312/65536
+PID: 0  	 Bunch Number: 14336/65536
+PID: 0  	 Bunch Number: 15360/65536
+PID: 0  	 Bunch Number: 16384/65536
+PID: 0  	 Bunch Number: 17408/65536
+PID: 0  	 Bunch Number: 18432/65536
+PID: 0  	 Bunch Number: 19456/65536
+PID: 0  	 Bunch Number: 20480/65536
+PID: 0  	 Bunch Number: 21504/65536
+PID: 0  	 Bunch Number: 22528/65536
+PID: 0  	 Bunch Number: 23552/65536
+PID: 0  	 Bunch Number: 24576/65536
+PID: 0  	 Bunch Number: 25600/65536
+PID: 0  	 Bunch Number: 26624/65536
+PID: 0  	 Bunch Number: 27648/65536
+PID: 0  	 Bunch Number: 28672/65536
+PID: 0  	 Bunch Number: 29696/65536
+PID: 0  	 Bunch Number: 30720/65536
+PID: 0  	 Bunch Number: 31744/65536
+PID: 0  	 Bunch Number: 32768/65536
+PID: 0  	 Bunch Number: 33792/65536
+PID: 0  	 Bunch Number: 34816/65536
+PID: 0  	 Bunch Number: 35840/65536
+PID: 0  	 Bunch Number: 36864/65536
+PID: 0  	 Bunch Number: 37888/65536
+PID: 0  	 Bunch Number: 38912/65536
+PID: 0  	 Bunch Number: 39936/65536
+PID: 0  	 Bunch Number: 40960/65536
+PID: 0  	 Bunch Number: 41984/65536
+PID: 0  	 Bunch Number: 43008/65536
+PID: 0  	 Bunch Number: 44032/65536
+PID: 0  	 Bunch Number: 45056/65536
+PID: 0  	 Bunch Number: 46080/65536
+PID: 0  	 Bunch Number: 47104/65536
+PID: 0  	 Bunch Number: 48128/65536
+PID: 0  	 Bunch Number: 49152/65536
+PID: 0  	 Bunch Number: 50176/65536
+PID: 0  	 Bunch Number: 51200/65536
+PID: 0  	 Bunch Number: 52224/65536
+PID: 0  	 Bunch Number: 53248/65536
+PID: 0  	 Bunch Number: 54272/65536
+PID: 0  	 Bunch Number: 55296/65536
+PID: 0  	 Bunch Number: 56320/65536
+PID: 0  	 Bunch Number: 57344/65536
+PID: 0  	 Bunch Number: 58368/65536
+PID: 0  	 Bunch Number: 59392/65536
+PID: 0  	 Bunch Number: 60416/65536
+PID: 0  	 Bunch Number: 61440/65536
+PID: 0  	 Bunch Number: 62464/65536
+PID: 0  	 Bunch Number: 63488/65536
+PID: 0  	 Bunch Number: 64512/65536
+time on clock: 22606.7800
+time on wall: 22661.2397
+sum = 0.000000
+2^(-inf)
+
+##########################
+Program number = 1
+Average = 2^(-inf)

@@ -1,0 +1,13 @@
+# Example input file for Skinny-128-256
+---
+blocksize: 128
+rounds: 7
+mode: 2
+sweight: 0
+endweight: 128
+timelimit: -1
+fixedVariables:
+- tk1_0 : "f0000000000000000000000000000000"
+- tk2_0 : "fc000000000000000000000000000000"
+- x_0 : "02000000000020000020000020000000"
+- x_7 : "00000000000000000000001000000000"
