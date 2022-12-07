@@ -6,6 +6,8 @@ This repository complements our research documented in the paper [Improved Recta
 
 The new version of our tool published in [Throwing Boomerangs into Feistel Structures Application to CLEFIA, WARP, LBlock, LBlock-s, and TWINE](https://tosc.iacr.org/index.php/ToSC/article/view/9858) is available [here](https://github.com/hadipourh/comeback).
 
+**Update on December 7, 2022:** We noticed that [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/8908) published by Thomas Peyrin and Quan Quan Tan, includes many false/unfair claims about our results which are based on an apparent misunderstanding of our work. One can simply confirm that we use **none** of the claimed characteristics in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/8908) as the building block of our distinguishers. The characteristics/probabilities claimed in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/890) regarding our paper are just some intermediate outputs produced by our differential analysis tool that are never worth publishing since we have not used characteristics to build our distinguishers. Many of our distinguishers have been experimentally verified, and the right pairs/quartets are given in the following. It is very unfortunate that [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/890) is misrepresenting our paper.
+
 ## Contents
 
 - [Improved Rectangle Attacks on SKINNY and CRAFT](#improved-rectangle-attacks-on-skinny-and-craft)
