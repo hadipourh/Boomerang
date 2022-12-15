@@ -6,24 +6,6 @@ This repository complements our research documented in the paper [Improved Recta
 
 The new version of our tool published in [Throwing Boomerangs into Feistel Structures Application to CLEFIA, WARP, LBlock, LBlock-s, and TWINE](https://tosc.iacr.org/index.php/ToSC/article/view/9858) is available [here](https://github.com/hadipourh/comeback).
 
----
-**Misrepresentation of Our Work By [Thomas Peryrin](https://thomaspeyrin.github.io/web/) and [Quan Quan Tan](https://quanquantan.github.io/home.html)**
-
-We noticed that a paper published by Thomas Peyrin and Quan Quan Tan in ToSC-2022-4 [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) misrepresents our work, which is very unfortunate. The claims in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) regarding our paper are based on an apparent misunderstanding and have no impact on the validity of our work. What follows briefly explains the apparent misunderstanding of our work:
-
-- The authors of [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) have claimed that some characteristics in our work are impossible or do not work for some keys. First of all, we have never used characteristics. All of their claims are about the characteristics of more than 10 rounds lengths. However, anyone who read our paper can confirm that we only use the differentials of $\leq 9$ rounds length as the building blocks for our distinguishers. The 6-round middle part of our distinguishers is treated as a boomerang switch where only the differences in **two different sides** of boomerang are fixed. **In other words, for the middle part, only the input difference of the upper and lower trails are fixed, and the output differences are free.** Because, the middle part is actually a small boomerang through which we should only consider the depepndency between the upper and lower differentials. Considering this dependency between the upper and lower differentials through the middle part, implicitely takes the dependency in differentials through the middle part into account as well. That's why we skip the exact values of differences in upper/lower trails through the middle part. Thus, one can not interpret/consider the middle part of our distinguishers as a (part of) simple differential. 
-
-- As a very simple example, we build our 18-round distinguisher by concatenation of  `6-round forward differential + 6-round boomerang switch + 6-round backward differential`. The input/output differences of `6-round forward differential` and `6-round backward differential` are fixed, whereas all the other variables take any possible values in our method. The authors of [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) have taken for example the `6 first rounds of upper trail` plus `the next 6 rounds of upper trail through the boomerang switch` from the intermediate outputs of our tool in Github and claimed that this 12-round differential trail is impoossible or does not work for all/some keys! They have not understood that we essentially skip `the 6 rounds of upper/lower trails through the middle part`. They have not undesrtood that we treat the middle part as an independent small boomerang distinguisher in the boomerang framework (second order differential), not in the differential framework (first order differential). In the boomerang framework (middle part of our distinguishers), the input difference in encryption side and the output difference in decryption side are only fixed, and everything else is essentially free. However, all of the characteristics in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) are intentionally chosen from the upper and lower trails through the middle part where we essentially skip the exact values of differences. We had explained it in the paper and depcited free variables by green colors. This fact is actually very clear in the table of our papers when we specify the distinguishers by only 4 differences. It should clarify what is mainly wrong with the claims in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976).
-
-- [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) is only focused on dependency in a simple differential trail, whereas for the middle part of our sandwich distinguisher, the dependency between two trails makes sense, not the dependency in a single trail. For example, based on their wrong interpretation, they have claimed that no key satisfies the lower differential in our boomerang distinguisher II for SKINNY-64-128. However, we have provided many right quartets for this distinguisher (in our paper and this GitHub repository) and verified that it works for all keys with a probability of $2^{-38}$. This should clarify their apparent misunderstanding. It also shows that the dependency in one of the upper or lower differentials in the boomerang switch (middle part of sandwich distinguishers) has almost no impact on the resulting boomerang distinguishers. What matters is actually the dependency between two differentials in the middle that have been completely considered in our work. These facts have not been mentioned in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976), which is unfortunate.
-- The authors of [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) have also attributed some "stated probabilities." to our paper that we have never claimed in all versions of our paper. All of the characteristics claimed in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) regarding our paper are some intermediate outputs of our tool that can be changed in each call. Our distinguishers and our method never rely on these intermediate outputs. That is why we have not stated any probability for those characteristics in the ToSC or ePrint versions of our paper. 
-- The authors of [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) admitted that their discoveries do not invalidate our work (in a very short/hidden sentence, section 4.3, the last line of the first paragraph). However, this disclaimer has not been clarified in their table of results. In addition, this disclaimer only clarifies using differential (not differential characteristics) in our work. This disclaimer does not clarify that their interpretation of the differentials in our work is also wrong. Because we never treat the middle part of the sandwich distinguisher as a simple differential, and we treat it as a boomerang switch where only the input/output differences at two different sides are fixed, and the other positions can take any possible values (green cells in our shapes). The authors of [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) have interpreted our differentials in a reverse way, i.e., those positions which can take any possible values in our distinguishers are considered fixed in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976).
-- Last but not least, for those boomerang distinguishers whose building block differentials are claimed to be impossible in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) we have provided many right quartets in our paper and this GitHub repository. We hope it clarifies the misinterpretation/misrepresentation of our work in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976).
-
-Unfortunately, the authors of [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) have never confirmed their understanding with our team members before publishing their work. They have also never mentioned these facts while claiming about our work. They have also attributed "stated probabilities" to our work that we have never stated in our paper. Thus, we strongly believe that [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) is misrepresenting our work.
-
----
-
 ## Contents
 
 - [Improved Rectangle Attacks on SKINNY and CRAFT](#improved-rectangle-attacks-on-skinny-and-craft)
@@ -58,7 +40,7 @@ Unfortunately, the authors of [[1]](https://tosc.iacr.org/index.php/ToSC/article
 
 **_Given that some readers asked about the setting of our distinguishers, to avoid any possible misunderstanding, we recall the general setting of our distinguishers as follows_**:
 
-***Assuming that we partition `r` rounds of block cipher `E` into `r0 + rm + r1` rounds denoted by `E0, Em`, and `E1` respectively, our sandwich distinguishers are effectively built upon the first `r0` and the last `r1` rounds differentials (v.s. diffeerntial characteristics), as well as the `rm`-round boomerang switch in the middle. Particularly, the `rm`-round middle part is included in the boomerang switch, where the differences can take any possible value. In addition, we distinct between the differential and differential chacateristics. The building blocks of our distinguishers are basically differentials, not the differential characteristics. Please, take a look at the specification of distinguishers in our paper to see more details. In summary, according to the specifications of distinguishers in our paper, we fix the difference values only at four positions including input of `E0`, input/output of `Em` and output of `E1` and anywhere else can take an arbitrary possible difference value in our distinguishers. For example in our 17-round sandwich distinguisher II for SKINNY we partition the 17 rounds as 6 + 6 + 5 rounds and we only use the first 6-round differential as well as the last 5-round differential to compute the differential effects `p` and `q` respectively. The 6-round middle slice is included in the boomerang switch where the probability is computed based on `BCT` framework. This rule is applied for all of our distinguishers. The following shape briefly describes the overall structure of our boomerang (sandwich distinguishers). As it can be seen, only the differences marked in yellow are fixed in our sandwich distinguishers.***
+***Assume that we partition `r` rounds of block cipher `E` into `r0 + rm + r1` rounds denoted by `E0, Em`, and `E1`, respectively. Our sandwich distinguishers are effectively built upon the first `r0` and the last `r1` rounds differentials (v.s. differential characteristics), as well as the `rm`-round boomerang switch in the middle. Particularly, the `rm`-round middle part is included in the boomerang switch, where the differences can take any possible value. In addition, we differentiate between the differential and differential characteristics. The building blocks of our distinguishers are basically differentials, not the differential characteristics. Please, take a look at the specification of distinguishers in our paper to see more details. In summary, according to the specifications of distinguishers in our paper, we fix the difference values only at four positions including input/output of `E0`, and input/output of `E1` and anywhere else can take an arbitrary possible difference value in our distinguishers. For example, in our 17-round sandwich distinguisher II for SKINNY we partition the `17` rounds as `6 + 6 + 5` rounds. Next, out tool derives a `6 + 6` upper trial and a `6 + 5` lower trails. These two trails overlap in the 6-round middle part. In addition, these two trails are optimized to have minimu number of common active S-boxes in the 6-round middle part. Then, our tool, skip the last (resp. first) `6` rounds of upper trail (resp. lower trail). We only use the first 6-round differential as well as the last 5-round differential to compute the differential effects `p` and `q` respectively. The 6-round middle part is included in the boomerang switch where the probability is computed based on `BCT` framework. This rule is applied for all of our distinguishers. The following shape briefly describes the overall structure of our boomerang (sandwich distinguishers). As it can be seen, only the differences marked in yellow are fixed in our sandwich distinguishers.***
 
 ![](PageResources/fixed_positions.svg)
 
@@ -138,7 +120,7 @@ rm, wm = 2, 2
 number_of_patterns = 10
 ```
 
-Note that our program is able to find multiple truncated boomerang trails for a given setting. `number_of_patterns = 10` specifies the number of patterns we are interested to produce with the given setting. If you run `python3 main.py` with the above setting, you will get the following pattern (for me it was the solution number 9) as well as 9 other patterns:
+Note that our program is able to find multiple truncated boomerang trails for a given setting. `number_of_patterns = 10` specifies the number of patterns we are interested to produce with the given setting. If you run `python3 main.py` with the above setting, you will get the following pattern (in our experiment it was the solution number 9) as well as 9 other patterns:
 
 ```txt
 # Solution number 9
@@ -411,6 +393,51 @@ By running the above command, 625 jobs are performed in parallel (if enough reco
 To see the details inside the above picture properly, we encourage you to download the [PDF file](SKINNY-64-128-I/Shapes/rumi_64_128_full_view.pdf).
 
 ![bmd1_skinny_64_128](SKINNY-64-128-I/Shapes/rumi_64_128_v1.svg)
+
+The upper and lower trails generated in the first step of our tool for boomerang distinguisher I for 18 rounds of SKINNY-64-128 are as follows. **Note that, the red lines illustrate the middle part where the upper and lower trail overlap. We basically skip the part of the characteristics marked in red. We only fix the differences at the input/output of the first and last 6 rounds**:
+
+```diff
+Upper trail
+Characteristic for skinnyrk - Rounds 12 - Wordsize 64 - Weight 69 - Time 37.31s
+Rounds	x                   atk                 y                   z                   tk0                 tk1                 tk2                 w                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
++0	0x8000000000000000  0x4000000000000000  0x4000000000000000  0x0400000000000000  0x0000000C00000000  0x0000000F00000000  none                -2                  
++1	0x0000000000000400  0x0000000000000200  0x0000000000000000  0x0000000000000000  0x0000000000000C00  0x0000000000000E00  none                -2                  
++2	0x0000000000000000  0x0000000000000000  0x0000000000000000  0x0000000000000000  0x00000C0000000000  0x00000E0000000000  none                -0                  
++3	0x0000000000000000  0x0000000000000000  0x0000000000000000  0x0000000000000000  0x00000000000C0000  0x00000000000C0000  none                -0                  
++4	0x0000000000000000  0x0000000000000000  0x0000000000000000  0x0000000000000000  0x000C000000000000  0x000C000000000000  none                -0                  
++5	0x0000000000000000  0x0000000000000000  0x0000000004000000  0x0000000040000000  0x000000000C000000  0x0000000008000000  none                -0                  
+-6	0x0000400000000000  0x0000200000000000  0x0000200000000000  0x0000002000000000  0x0C00000000000000  0x0800000000000000  none                -2                  
+-7	0x0020002000000020  0x0010001000000010  0x0010001000D00010  0x000110000D000010  0x0000000000C00000  0x0000000000100000  none                -6                  
+-8	0x10101D0000101011  0x90B0890000B0B089  0x90B0890000B0B089  0x090B00890B00B089  0x00C0000000000000  0x0010000000000000  none                -16                 
+-9	0xB0000B89B089B90B  0x100001D510543401  0x100001D51054D401  0x0100D5010541D401  0x000000000000C000  0x0000000000002000  none                -21                 
+-10	0x0100D040D4010000  0x090090B09B090000  0x090090B09B090000  0x0090B090B0990000  0x0000C00000000000  0x0000200000000000  none                -12                 
+-11	0xB09000090000B000  0x3040000400003000  0x3040000480003000  0x0304040000083000  0x00000000C0000000  0x0000000040000000  none                -8                  
+-12	0x3400040830003704  none                none                none                none                none                none                none                
+
+Weight: 69
+
+Lower trail:
+Characteristic for skinnyrk - Rounds 12 - Wordsize 64 - Weight 64 - Time 24.24s
+Rounds	x                   atk                 y                   z                   tk0                 tk1                 tk2                 w                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-6	0x4050001000000015  0x2020009000000082  0x2020009000000082  0x0202900000000082  0x0000400000000000  0x0000C00000000000  none                -10                 
+-7	0x9082900000829280  0x5055500000455550  0x50555000C0455550  0x55050050045C5550  0x0000000040000000  0x0000000080000000  none                -18                 
+-8	0x5500040C55500005  0x2A0002022A200002  0x2A0002022A200002  0x02A00202A2020002  0x4000000000000000  0x8000000000000000  none                -16                 
+-9	0x0200A000000200A0  0x0500500000050050  0x0500500000050000  0x0050005000500000  0x0000000000000040  0x0000000000000010  none                -8                  
+-10	0x0050000000000000  0x00A0000000000000  0x00A0000000000000  0x000A000000000000  0x0000004000000000  0x0000001000000000  none                -2                  
+-11	0x000000000000000A  0x0000000000000006  0x0000000000000000  0x0000000000000000  0x0000000000000004  0x0000000000000002  none                -2                  
+-12	0x0000000000000000  0x0000000000000000  0x0000000000000000  0x0000000000000000  0x0000000400000000  0x0000000200000000  none                -0                  
++13	0x0000000000000000  0x0000000000000000  0x0000000000000000  0x0000000000000000  0x0000000000000400  0x0000000000000400  none                -0                  
++14	0x0000000000000000  0x0000000000000000  0x0000000000000000  0x0000000000000000  0x0000040000000000  0x0000040000000000  none                -0                  
++15	0x0000000000000000  0x0000000000000000  0x00000000000D0000  0x0000000000D00000  0x0000000000040000  0x0000000000090000  none                -0                  
++16	0x000000D000000000  0x0000009000000000  0x0000009000000000  0x0000900000000000  0x0004000000000000  0x0009000000000000  none                -2                  
++17	0x9000900000009000  0x5000400000004000  0x5000400007004000  0x0500004070004000  0x0000000004000000  0x0000000003000000  none                -6                  
++18	0x4040704040004540  none                none                none                none                none                none                none                
+
+Weight: 64
+```
+
  The required code for computing the probability of the 6-round middle part is located in folder [SKINNY-64-128-I/MiddlePart-ProbabilityComputation](SKINNY-64-128-I/MiddlePart-ProbabilityComputation). To use the codes inside this folder you can simply issue the `make` command and then run the compiled files. For instance, to compute the probability of the 6-round middle part use the following command inside the folder [SKINNY-64-128-I/MiddlePart-ProbabilityComputation](SKINNY-64-128-I/MiddlePart-ProbabilityComputation):
 
 ```sh
@@ -500,6 +527,20 @@ k1: cf9a0d881ae505cc87203c4eb4135364
 k2: cf9a0d88dae505cc87203c4e44135364
 k3: cf9a0d881ae545cc87203c4eb4132364
 k4: cf9a0d88dae545cc87203c4e44132364
+
+p1: 23def08bf89954fc
+p2: 23def08bf89954f4
+p3: 06e483039cbdc892
+p4: 06e483039cbdc89a
+c1: 0e66f16314b3290d
+c2: 515db926c253b008
+c3: 0a32f16710b42d09
+c4: 5509b922c654b40c
+k1: 8c8a8f2f3a611554719871ab8420d96d
+k2: 8c8a8f2ffa611554719871ab7420d96d
+k3: 8c8a8f2f3a615554719871ab8420a96d
+k4: 8c8a8f2ffa615554719871ab7420a96d
+
 ```
 
 In the same way, our results plus the required materials to reproduce our results concerning boomerang distinguisher I for 17 and 19 rounds of SKINNY-64-128 are provided inside the folders [SKINNY-64-128-I/SKINNY-64-128-I-17-Rounds](SKINNY-64-128-I/SKINNY-64-128-I-17-Rounds) and [SKINNY-64-128-I/SKINNY-64-128-I-19-Rounds](SKINNY-64-128-I/SKINNY-64-128-I-19-Rounds) respectively. For instance, the required codes for experimental verification of our bound concerning boomerang distinguisher I for 17 rounds of SKINNY-64-128 are provided inside the folder [SKINNY-64-128-I/SKINNY-64-128-I-17-Rounds/ExperimentalVerification](SKINNY-64-128-I/SKINNY-64-128-I-17-Rounds/ExperimentalVerification). You can simply build it via the `make` command and the verify it by running the following command inside the folder [SKINNY-64-128-I/SKINNY-64-128-I-17-Rounds/ExperimentalVerification](SKINNY-64-128-I/SKINNY-64-128-I-17-Rounds/ExperimentalVerification):
@@ -670,6 +711,47 @@ Besides the provided shape in our paper, the following shape illustrates the dif
 ![bmd2_skinny_128_256_1](SKINNY-128-256-II/SKINNY-128-256-II-18-Rounds/Shapes/dufu_skinny_128_256.svg)
 
 To see the details clearly, we encourage you to download the PDF file from [here](SKINNY-128-256-II/SKINNY-128-256-II-18-Rounds/Shapes/skinny-128-256-rt-18r.pdf).
+
+The upper and lower differential trails generated in the first step of our tool for boomerang distinguisher II for 18 rounds of SKINNY-128-256 are as follows. **Note that, the red lines illustrate the middle part where the upper and lower trail overlap. We basically skip the part of the characteristics marked in red. We only fix the differences at the input/output of the first and last 6 rounds**: 
+
+```diff
+Upper trail:
+Rounds	x                                 y                                 z                                 tk1                               tk2                               tk               pr     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
++ 0	00000000000000000000000000200000  00000000000000000000000000800000  00000000000000000000000000800000  00000000000000000002000000000000  00000000000000000080000000000000  0000000000000000 -2.0   
++ 1	80000000000000000000000000000000  03000000000000000000000000000000  00000000000000000000000000000000  02000000000000000000000000000000  01000000000000000000000000000000  0300000000000000 -2.0   
++ 2	00000000000000000000000000000000  00000000000000000000000000000000  00000000000000000000000000000000  00000000000000000200000000000000  00000000000000000100000000000000  0000000000000000 -0.0   
++ 3	00000000000000000000000000000000  00000000000000000000000000000000  00000000000000000000000000000000  00000200000000000000000000000000  00000200000000000000000000000000  0000000000000000 -0.0   
++ 4	00000000000000000000000000000000  00000000000000000000000000000000  00000000000000000000000000000000  00000000000000000000020000000000  00000000000000000000020000000000  0000000000000000 -0.0   
++ 5	00000000000000000000000000000000  00000000000000000000000000000000  00000000060000000000000000000000  00000000020000000000000000000000  00000000040000000000000000000000  0000000006000000 -0.0   
+- 6	00000000000000000006000000000000  00000000000000000025000000000000  00000000000000000025000000000000  00000000000000000000000002000000  00000000000000000000000004000000  0000000000000000 -4.0   
+- 7	00000025000000000000002500000025  00000021000000000000002100000021  0000002100000a000000002100000021  00000000000002000000000000000000  00000000000008000000000000000000  0000000000000a00 -9.0   
+- 8	00212121000000210021000a00210021  002020a0000000200020003400280020  002020a0000000200020003400280020  00000000000000000000000000000200  00000000000000000000000000000800  0000000000000000 -20.0  
+- 9	28140080002020a02034002000142080  934100d0009080538041008000518003  934100d0008280538041008000518003  00000000000200000000000000000000  00000000001000000000000000000000  0000000000120000 -36.415
+- 10	c2418391934100d0538002c193c18091  0ab4e023b0240004200208b4b02e02ea  0ab4e023b0240004200208b4b02e02ea  00000000000000000000000000020000  00000000000000000000000000100000  0000000000000000 -54.0931
+- 11	2c022a910ab4e0230c0404020200c021  8808802210a854201801010808000420  8808800010a854201801010808000420  00000002000000000000000000000000  00000020000000000000000000000000  0000002200000000 -45.0  
+- 12	8904b809880880002118b05589009801  none                              none                              none                              none                              none             none   
+#Weight: -172.50809999999998
+#Time used = 496.16353607177734
+Lower trail:
+Rounds	x                                 y                                 z                                 tk1                               tk2                               tk               pr     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- 0	00202000002020000020002000204020  00809000008080000080008000800490  00809000008080000080008000800490  000000000000000000000000000000f8  0000000000000000000000000000007f  0000000000000000 -18.0  
+- 1	80040080008090000080800000009080  02050002000202000002020000000202  02020002000202000002020000000202  00f80000000000000000000000000000  00ff0000000000000000000000000000  0007000000000000 -19.0  
+- 2	00000200020200020200020000020000  000008000808000808000800000c0000  000008000808000808000800000c0000  000000000000000000f8000000000000  000000000000000000ff000000000000  0000000000000000 -15.0  
+- 3	04000000000008000008000008000000  06000000000010000010000010000000  00000000000010000010000010000000  f8000000000000000000000000000000  fe000000000000000000000000000000  0600000000000000 -9.0   
+- 4	00000000000000000000000000000010  00000000000000000000000000000050  00000000000000000000000000000050  0000000000000000f800000000000000  0000000000000000fe00000000000000  0000000000000000 -2.0   
+- 5	00005000000000000000000000000000  00000400000000000000000000000000  00000000000000000000000000000000  0000f800000000000000000000000000  0000fc00000000000000000000000000  0000040000000000 -2.0   
+- 6	00000000000000000000000000000000  00000000000000000000000000000000  00000000000000000000000000000000  00000000000000000000f80000000000  00000000000000000000fc0000000000  0000000000000000 -0.0   
++ 7	00000000000000000000000000000000  00000000000000000000000000000000  00000000000000000000000000000000  00000000f80000000000000000000000  00000000f80000000000000000000000  0000000000000000 -0.0   
++ 8	00000000000000000000000000000000  00000000000000000000000000000000  00000000000000000000000000000000  000000000000000000000000f8000000  000000000000000000000000f8000000  0000000000000000 -0.0   
++ 9	00000000000000000000000000000000  00000000000000000000000000000000  00000000000008000000000000000000  000000000000f8000000000000000000  000000000000f0000000000000000000  0000000000000800 -0.0   
++ 10	00000000000000000000000800000000  00000000000000000000001000000000  00000000000000000000001000000000  0000000000000000000000000000f800  0000000000000000000000000000f000  0000000000000000 -2.0   
++ 11	00100000000000000010000000100000  00400000000000000040000000400000  00400000001800000040000000400000  0000000000f800000000000000000000  0000000000e000000000000000000000  0000000000180000 -6.0   
++ 12	40400040004000000000184000400040  none                              none                              none                              none                              none             none   
+# Weight: -73.0
+# Time used = 106.74798440933228                          none                              none                              none                              none             none   
+```
 
 One can simply evaluate the probability of the 6-round middle part via the code we have prepared [here](SKINNY-128-256-II/Middle-6-Rounds/middle6r.c) inside the folder [SKINNY-128-256-II/Middle-6-Rounds](SKINNY-128-256-II/Middle-6-Rounds). To this end, issue the `make` command to build the code, and the run it by the following command:
 
