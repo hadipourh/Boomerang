@@ -6,7 +6,7 @@ This repository complements our research documented in the paper [Improved Recta
 
 The new version of our tool published in [Throwing Boomerangs into Feistel Structures Application to CLEFIA, WARP, LBlock, LBlock-s, and TWINE](https://tosc.iacr.org/index.php/ToSC/article/view/9858) is available [here](https://github.com/hadipourh/comeback).
 
-**We noticed that Thomas Peyrin and Quan Quan Tan published a paper making some claims about our work in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976).
+**We noticed that Thomas Peyrin and Quan Quan Tan published a paper [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) inlcuding some claims about our work in ToSC-2021 [[2]](https://ia.cr/2020/1317).
 We like to clarify their claim has no impact on our method/results.
 More precisely, the characteristics claimed in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) are intermediate outputs at the first step of our method.
 According to our paper, our tool skips all of these characteristics when going to the next steps (i.e., computing the differential effect and the boomerang switch). For example, when our tool derives a 12-round upper trail at the first step, it skips the last 6 round of this trail and only uses the first 6 rounds. 
