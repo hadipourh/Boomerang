@@ -6,7 +6,7 @@ This repository complements our research documented in the paper [Improved Recta
 
 The new version of our tool published in [Throwing Boomerangs into Feistel Structures Application to CLEFIA, WARP, LBlock, LBlock-s, and TWINE](https://tosc.iacr.org/index.php/ToSC/article/view/9858) is available [here](https://github.com/hadipourh/comeback).
 
-## Misrepresentation of Our Work in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) by Thomas Peyrin and Quan Quan Tan
+## Misrepresentation of Our Work in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976)
 
 **We noticed that Thomas Peyrin and Quan Quan Tan published a paper [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) including some claims about our work in ToSC-2021 [[2]](https://ia.cr/2020/1317), that misrepresents our work. In what follows we prove that all claims in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) are based on apparent misunderstanding of our method.
 We like to clarify that non of the claimed characteristics in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) is used in our method/results, and thus [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) has no impact on our method/results.
