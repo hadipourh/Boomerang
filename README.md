@@ -6,7 +6,7 @@ This repository complements our research documented in the paper [Improved Recta
 
 The new version of our tool published in [Throwing Boomerangs into Feistel Structures Application to CLEFIA, WARP, LBlock, LBlock-s, and TWINE](https://tosc.iacr.org/index.php/ToSC/article/view/9858) is available [here](https://github.com/hadipourh/comeback).
 
-## Misrepresentation of Our Work By Thomas Peyrin and Quan Quan Tan (Updated on Dec 20, 2022)
+## Misrepresentation of Our Work in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) (Updated on Dec 20, 2022)
 
 **We noticed that Thomas Peyrin and Quan Quan Tan published a paper [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) including some claims about our work in ToSC-2021 [[2]](https://ia.cr/2020/1317), that misrepresents our method. In what follows we show that all claims in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) are based on apparent misunderstanding of our method, and hence have no impact on our method/results.
 The characteristics claimed in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) are intermediate outputs at the first step of our method.
@@ -18,7 +18,7 @@ In addition, for the first 'R' rounds, we do not rely on characteristic and we u
 **Since the method in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) is unable to check the boomerang distinguishers and even the differentials, we provide some intuitions about the validity of our boomerang distinguishers. All of the local/gloabl dependeinces discussed in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) are only in the last (resp. first) 6-rounds of the upper (resp. lower) trails, where we skip in our method. 
 In addition, the differentials through `E0` and `E1` in our boomerang distinguishers take `zero` values almost everywhere. Thus, one can confirm that the local/global dependencies discussed in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) do not appear in differentials through `E0` and `E1`. We also have considered the dependency between upper and lower differentials through the 6-round middle part. Therefore, our boomerang distinguishers should be valid, even with a higher probability that we claimed in the paper. As clear evidence, we have already provided many right quartets (in this repository and our paper) for many of our claimed boomerang distinguishers. We hope our clarifications help other researchers better understand our method. Any scientific/logical claims about our work are warmly welcomed.**
 
-**It should be mentioned that the authors of [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) did not confirm their claims with our group members before publishing their work.**
+**It should be mentioned that the authors of [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) did not confirm their claims with our team members before publishing their work.**
 
 ## Contents
 
