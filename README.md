@@ -6,7 +6,7 @@ This repository complements our research documented in the paper [Improved Recta
 
 The new version of our tool published in [Throwing Boomerangs into Feistel Structures Application to CLEFIA, WARP, LBlock, LBlock-s, and TWINE](https://tosc.iacr.org/index.php/ToSC/article/view/9858) is available [here](https://github.com/hadipourh/comeback).
 
-## A Discussion About The Claims in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) About Our Work
+## A Discussion On The Claims in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) About Our Work
 
 **We noticed that a paper published in ToSC-2022-4 [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) has investigated some characteristics in our GitHub repository. In what follows we show that the local/global dependencies discussed in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) have no impact on our method/results.
 The characteristics claimed in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) are intermediate outputs at the first step of our method.
