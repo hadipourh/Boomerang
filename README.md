@@ -31,7 +31,7 @@ sage: bct[2, 2]
 16
 ```
 
-**As can be seen, the simple differential transitions $2 \xrightarrow{S} 2$, and $2 \xleftarrow{S^{-1}} 2$ are impossible differentials. However, combining them in boomerang setting results in a boomerang distinguisher with probability one, i.e., $\Pr \\{S^{-1}(S(x) \oplus 2) \oplus S^{-1}(S(x \oplus 2) \oplus 2) = 2 \\} = 1$.
+**As can be seen, the simple differential transitions $2 \xrightarrow{S} 2$, and $2 \xleftarrow{S^{-1}} 2$ are impossible differentials. However, combining them in boomerang setting results in a boomerang with probability one, i.e., $\Pr \\{S^{-1}(S(x) \oplus 2) \oplus S^{-1}(S(x \oplus 2) \oplus 2) = 2 \\} = 1$.
 We hope our clarifications help other researchers better understand our method. Any scientific/logical claims about our work are warmly welcomed.**
 
 ## Contents
