@@ -15,24 +15,12 @@ In addition, for the first (resp. last) 'R' rounds, we do not rely on characteri
 
 **Moreover, all characteristics in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) attributed to our work has been taken from the leftover intermediate outputs in our GitHub repository. These leftover characteristics are actually changed randomly in each single run of our tool, and we never rely on them. From the table of our distinguishers in our paper, it is clear that we only fix the differences in 4 positions.**
 
-**Given that the method in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) is not applicable to boomerang distinguishers, we provide some intuitions about the validity of our boomerang distinguishers. All of the local/gloabl dependeinces discussed in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) are only in the last (resp. first) 6-rounds of the upper (resp. lower) trails, where we skip in our method. 
+**Given that the method in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) is not applicable to boomerang distinguishers, we provide some intuitions about the validity of our boomerang distinguishers. All of the local/gloabl dependeinces discussed in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) are only in the last (resp. first) 6-rounds of the upper (resp. lower) trails, where we skip in our method. These parts are essentially included in the boomerang switch and we should treat it as a small boomerang distinguisher.
+
 In addition, the differentials through `E0` and `E1` in our boomerang distinguishers take `zero` values almost everywhere. Thus, one can confirm that the local/global dependencies discussed in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) do not appear in differentials through `E0` and `E1`. We also have considered the dependency between upper and lower differentials through the 6-round middle part. Therefore, our boomerang distinguishers should be valid, even with a higher probability that we claimed in the paper. As clear evidence, we have already provided many right quartets (in this repository and our paper) for many of our claimed boomerang distinguishers.**
 
 
-**Another important fact that is ignored in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) is that when it comes to the boomerang analysis, one should take the dependency between the two sides into account. In the following example, we show that discussing the dependency on only one side of the boomerang distinguisher does not make sense and has nothing to do with the validity of boomerang distinguishers:**
-
-```
-sage: from sage.crypto.sboxes import Midori_Sb0 as sb
-sage: ddt = sb.difference_distribution_table()
-sage: bct = sb.boomerang_connectivity_table()
-sage: ddt[2, 2]
-0
-sage: bct[2, 2]
-16
-```
-
-**As can be seen, the simple differential transitions $2 \xrightarrow{S} 2$, and $2 \xleftarrow{S^{-1}} 2$ are impossible differentials. However, combining them in boomerang setting results in a boomerang with probability one, i.e., $\Pr \\{S^{-1}(S(x) \oplus 2) \oplus S^{-1}(S(x \oplus 2) \oplus 2) = 2 \\} = 1$.
-We hope our clarifications help other researchers better understand our method. Any scientific/logical claims about our work are warmly welcomed.**
+**In our [FSE 2023 talk](https://iacr.org/submit/files/slides/2023/fse/fse2023/tosc2022_3_36/slides.pdf), we proved that the depednency issues discussed in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) has essentially no impact on the validty of the boomerang distinguishers. To this aim, we used two differential trails to build a deterministic 11-round deterministic boomerang distinguisher for SKINNY-TK2. The bulding block differential trails in our example should be impossible according to [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976). However, the resulting boomerang distinguisher works for all keys/plaintexts with probability one.**
 
 ## Contents
 
