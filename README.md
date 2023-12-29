@@ -5,9 +5,8 @@
 This repository complements our research documented in the paper [Improved Rectangle Attacks on SKINNY and CRAFT](https://tosc.iacr.org/index.php/ToSC/article/view/8908) which has been accepted to ToSC 2021, issue 2.
 
 - Mian authors/contributors of the paper: Hosein Hadipour and Nasour Bagheri
-- Minor contribution and proofread: Ling Song
 
-The new version of our tool published in [Throwing Boomerangs into Feistel Structures Application to CLEFIA, WARP, LBlock, LBlock-s, and TWINE](https://tosc.iacr.org/index.php/ToSC/article/view/9858) is available [here](https://github.com/hadipourh/comeback).
+The new version of our tool published in FSE 2023 entitled [Throwing Boomerangs into Feistel Structures Application to CLEFIA, WARP, LBlock, LBlock-s, and TWINE](https://tosc.iacr.org/index.php/ToSC/article/view/9858) is available [here](https://github.com/hadipourh/comeback).
 
 ## A Discussion On The Claims in [[1]](https://tosc.iacr.org/index.php/ToSC/article/view/9976) About Our Work
 
