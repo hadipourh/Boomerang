@@ -2,7 +2,7 @@
 
 ![](PageResources/boomerang_picture.jpg)
 
-This repository complements our research documented in the paper [Improved Rectangle Attacks on SKINNY and CRAFT](https://tosc.iacr.org/index.php/ToSC/article/view/8908) which has been accepted to ToSC 2021, issue 2.
+This repository complements our research documented in the paper [Improved Rectangle Attacks on SKINNY and CRAFT](https://eprint.iacr.org/2020/1317) which has been accepted to ToSC 2021, issue 2.
 
 - Mian authors/contributors of the paper: Hosein Hadipour and Nasour Bagheri
 
