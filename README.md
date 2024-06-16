@@ -820,14 +820,14 @@ To check the correctness of the right quartets provided in this page, you can us
 If our codes have been used in a project that leads to an academic publication, please, acknowledge that fact by citing our paper:
 
 ```bib
-@article{Hadipour_Bagheri_Song_2021,
+@article{Hadipour_Bagheri_2021,
 title={Improved Rectangle Attacks on SKINNY and CRAFT}, 
 volume={2021}, 
 url={https://tosc.iacr.org/index.php/ToSC/article/view/8908}, 
 DOI={10.46586/tosc.v2021.i2.140-198}, 
 number={2}, 
 journal={IACR Transactions on Symmetric Cryptology}, 
-author={Hadipour, Hosein and Bagheri, Nasour and Song, Ling}, 
+author={Hadipour, Hosein and Bagheri, Nasour}, 
 year={2021}, 
 month={Jun.}, 
 pages={140-198}}
